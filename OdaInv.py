@@ -145,11 +145,6 @@ st.title("")
 st.title("")
 st.title("")
 
-def save_input(user_input, filename="user_inputs.txt"):
-    # Abrimos el archivo en modo 'append' para no sobreescribir
-    with open(filename, "a") as f:
-        # Guardamos junto con la hora actual
-        f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {user_input}\n")
 
 persona = """
         You are an invitation bot, you will help answer questions about outing with him, I am Daniel
@@ -175,4 +170,3 @@ if st.button("Tell me", use_container_width=400):
     prompt = persona + "Here is the question that the user ask: " + user_question
     response = model.generate_content(prompt)
     st.write(response.text)
-	save_input(user_question)
