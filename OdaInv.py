@@ -35,7 +35,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("")
 with col2:
-    st.image("invitation/next.png")
+    st.image("Invitation/next.png")
 with col3:
     st.subheader("")
 
@@ -47,13 +47,13 @@ with   col1:
     st.title("Asi que cumplire con el reto que me des")
     st.write("tengo miedo jaja")
 with col2:
-    st.image("invitation/MeVaDarAlgo.jpg")
+    st.image("Invitation/MeVaDarAlgo.jpg")
 
 col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("")
 with col2:
-    st.image("invitation/next.png")
+    st.image("Invitation/next.png")
 with col3:
     st.subheader("")
 
@@ -61,7 +61,7 @@ with col3:
 
 col1, col2 = st.columns(2)
 with   col1:
-    st.image("invitation/StickerAdecuado.jpg")
+    st.image("Invitation/StickerAdecuado.jpg")
 with col2:
     st.title("")
     st.title("Pero aun asi quiero hacerte una pregunta")
@@ -71,14 +71,14 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("")
 with col2:
-    st.image("invitation/next.png")
+    st.image("Invitation/next.png")
 with col3:
     st.subheader("")
 col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("")
 with col2:
-    st.image("invitation/next.png")
+    st.image("Invitation/next.png")
 with col3:
     st.subheader("")
 
@@ -90,13 +90,13 @@ with   col1:
     st.title("")
     st.title("Te gustaria salir despues de tus clases?")
 with col2:
-    st.image("invitation/Salimos.jpg")
+    st.image("Invitation/Salimos.jpg")
 
 col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("")
 with col2:
-    st.image("invitation/next.png")
+    st.image("Invitation/next.png")
 with col3:
     st.subheader("")
 
@@ -104,7 +104,7 @@ with col3:
 
 col1, col2 = st.columns(2)
 with   col1:
-    st.image("invitation/ParaTi.jpg")
+    st.image("Invitation/ParaTi.jpg")
 with col2:
     st.title("")
     st.title("Quiero darte una sorpresa")
@@ -114,7 +114,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("")
 with col2:
-    st.image("invitation/next.png")
+    st.image("Invitation/next.png")
 with col3:
     st.subheader("")
 
@@ -125,7 +125,7 @@ with   col1:
     st.title("")
     st.title("Espero tu mensaje")
 with col2:
-    st.image("invitation/Esperanding.jpg")
+    st.image("Invitation/Esperanding.jpg")
 
 
 st.title("")
