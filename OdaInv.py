@@ -1,5 +1,7 @@
 import streamlit
 import streamlit as st
+import gspread
+import time
 import google.generativeai as genai
 
 #api_key = st.secrets["GOOGLE_API_KEY"]
@@ -146,6 +148,37 @@ st.title("")
 st.title("")
 
 
+
+
+
+
+
+
+
+
+#scope = [
+#    "https://spreadsheets.google.com/feeds",
+#    "https://www.googleapis.com/auth/drive"
+#]
+#creds = Credentials.from_service_account_info(
+#    st.secrets["personal-454406-77cab45b73a0.json"],  # <-- Aquí está la info de tu JSON
+#    scopes=scope
+#)
+# Autorizamos con gspread
+#client = gspread.authorize(creds)
+
+# Nombre (o URL) de la hoja de cálculo que ya creaste y compartiste
+#SHEET_NAME = "MiHojaIA"  # Cámbialo por el nombre real
+# Abrimos la hoja, en este caso la primera pestaña
+#worksheet = client.open(SHEET_NAME).sheet1
+
+
+
+
+
+
+
+
 persona = """
         You are an invitation bot, you will help answer questions about outing with him, I am Daniel
         Answer as if you are responding . dont answer in second or third person.
@@ -170,3 +203,7 @@ if st.button("Tell me", use_container_width=400):
     prompt = persona + "Here is the question that the user ask: " + user_question
     response = model.generate_content(prompt)
     st.write(response.text)
+	# now = time.strftime('%Y-%m-%d %H:%M:%S')
+    #worksheet.append_row([now, user_question, response.text])
+
+    #st.success("¡Pregunta guardada en Google Sheets!")
